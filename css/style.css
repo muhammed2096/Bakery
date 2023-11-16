@@ -1,0 +1,404 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    background-size: 100% 100%;
+   
+}
+body{
+    font-family: 'alegreya sans';
+    
+}
+
+
+
+/* home */
+
+.home{
+    background-image: url(../images/drew-coffman-187200.jpg);
+    height: 100vh;
+    overflow: hidden;
+    background-size: cover;
+    background-position: center ;
+    
+}
+.home-cap{
+    text-align: center;
+    color: white;
+    background-color: rgba(0, 0, 0, 0.4);
+    height: inherit;
+    
+    vertical-align: middle;
+    padding-top: 150px;
+}
+.container{
+    width: 90%;
+    margin: auto; 
+}
+.nav{
+    background-color: rgba(0, 0, 0, 0.5);
+
+}
+
+.nav-logo{
+    
+    width: 13%; 
+
+}
+.nav-logo img{
+    width: 100%;
+}
+.nav-links ul{
+   display: flex;
+    align-items: center;
+    justify-content: space-around; 
+     height: 50px;
+    
+}
+
+
+.nav-links ul li{
+    list-style-type: none;
+    font-size: 18px; 
+    padding: 19px 0;  
+    transition: 0.5s;
+ } 
+ .nav-links ul li:hover{
+    border-bottom: #8E7754 4px solid;
+ }
+    
+
+.nav-links ul li a{
+    color: white;
+    text-decoration: none;
+    transition: 0.5s;
+}
+.nav-links ul li a:hover{
+    color: #8E7754;
+}
+.clr{
+    clear: both;
+}
+
+.home-cap p{
+    font-size: 24px;
+}
+.home-cap h1{
+    font-size: 76px;
+    font-weight: bold;
+    margin: 25px 0;
+}
+
+.home-cap .btn{
+    padding: 17px;
+    color: white;
+    margin: 30px 5px;
+    font-size: 16px;
+    font-weight: 600;
+}
+.home-cap .btn:hover{
+    background-color: #fff;
+    color: #8e7754;
+}
+.home-cap .btn1{
+    background-color: #8e7754;
+    border-radius: 5px;
+    border-width: 0;
+}
+.home-cap .btn2{
+    background-color: transparent;
+    border-radius: 5px;
+    border: 2px white solid;
+    
+}
+
+/* who we are? */
+.about{
+    
+    width: 90%;
+    display: flex;
+    margin: auto;
+    margin-top: 90px;
+    padding: 5%;
+    justify-content: center;
+}
+
+.about-img{
+
+    width: 50%;
+    display: inline-block;
+    vertical-align: middle;
+    
+}
+.about-img img{
+    width: 100%;
+}
+.about-text{
+    
+    width: 54%;
+    /* display: inline-block; 
+    vertical-align: middle;  */
+    margin-top: 40px;
+    color: #686a85;
+    margin-left: 70px;
+    padding-left: 50px;
+
+    
+    
+}
+.about-text h2{
+    font-size: 32px;
+    color: #303030;
+
+}
+.about-text p{
+    font-size: 17px;
+    margin: 20px 0;
+    /* padding: 20px 0; */
+    line-height: 40px;
+    
+}
+
+.about-list ul li{
+    /* padding: 9px 0; */
+    /* margin-left: 25px; */
+    list-style: none;    
+    
+}
+.about-list {
+    display: flex;
+    align-items: center;
+}
+.about-list ul li i{
+    color: #8E7754;
+    padding: 10px;
+    border: gainsboro solid 1px;
+    border-radius: 50%;
+    font-size: 24px;
+    margin: 0 10px;
+}
+/* .about-list ul li img{
+    width: 7%;
+    border: gainsboro solid 1px;
+    border-radius: 50%;
+} */
+
+
+/* our location */
+
+.location{
+    
+    width: 90%;
+    display: flex;
+    margin: auto;
+    margin-top: 140px;
+}
+.location-text{
+    
+    width: 45%;
+    display: inline-block;
+    vertical-align: middle;
+    margin-top: 100px;
+    margin-left: 70px;
+    color: #686a85;
+}
+
+.location-text h2{
+    font-size: 32px;
+    color: #303030;
+   
+}
+.location-text p{
+    font-size: 17px;
+    margin-top: 30px;
+    line-height: 30px;
+    
+
+}
+
+.location-img{
+    
+    width: 45%;
+    display: inline-block;
+    vertical-align: middle;
+    margin-right: 80px;
+}
+.location-img img{
+    width: 100%;
+}
+
+/* our baking */
+
+.baking{
+    text-align: center;
+    margin: auto;
+    width: 80%;
+    margin-top: 130px;
+
+}
+.baking h2{
+    font-size: 30px;
+    color: #303030;
+}
+.baking p{
+    margin: 25px 0 35px;
+    font-size: 17px;
+    color: #686a85;
+}
+.baking .meal h4{
+    font-size: 22px;
+    margin-top: 25px;
+    color: #303030;
+}
+.baking .meal{
+    width: 33.333%;
+    float: left;
+    padding: 20px;
+}
+
+
+
+.baking .meal img{
+    width: 100%;
+    
+}
+
+.baking .meal p{
+    margin: 20px;
+}
+
+/* contact information */
+
+.contact{
+    width: 90%;
+    margin: auto;
+    margin-top: 140px;
+}
+.contact-text{
+    width: 45%;
+    float: left;
+    margin-bottom: 45px;
+    margin-left: 70px;
+    color: #686868;
+
+}
+
+.contact-text h2{
+    color: #303030;
+    font-size: 32px;
+    
+}
+
+.contact-text p{
+    font-size: 17px;
+    margin-top: 25px;
+    line-height: 35px;
+    color: #686a85;
+}
+.contact-list ul li{
+    padding: 10px;
+    margin-left: 30px;
+    margin-top: 15px;
+    list-style: none;
+    color: #686a85;
+    
+}
+
+.contact-list ul li img{
+    width: 7%; 
+    border: transparent 5px;
+    border-radius: 50%;
+    background-color: #8e7754;
+}
+
+
+.contact-map
+{
+    width: 40%;
+    float: right;
+    margin-bottom: 30px;
+}
+
+/* more information */
+
+
+
+.information{
+    color: white;
+    background-color: #403d38;
+    background-image: url(../images/contact-details-map.png);
+    background-size: 20%;
+    background-repeat: no-repeat;
+    background-position: right;
+    margin-top: 40px;
+   
+}
+
+.information-text{
+    
+    width: 25%;
+    float: left;
+    padding: 20px;
+}
+.information-text h4{
+    margin-bottom: 10px;
+    
+
+}
+
+.information-text p{
+    margin-top: 30px;
+    color: gray;
+    
+}
+
+.information-text ul li{
+    padding-block: 20px;
+    /* margin-left: 25px; */
+    color: gray;
+    list-style: none;
+}
+.information-text ul li img{
+    width: 7%;
+}
+.information-text ul li .condet{
+    width: 15%;
+}
+
+
+/* copy rights */
+.copy-rights{
+    background-color: #353330;
+    
+}
+.copy-rights-info{
+    margin: auto;
+    text-align: center;
+    width: 40%;
+    padding: 30px;
+}
+.copy-rights-info p{
+    margin-top: 20px;
+    color: gray;
+}
+.copy-rights-info img{
+    width: 50%;
+
+}
+.s-media{
+    margin: auto;
+    width: 13%;
+}
+
+.s-media .media{
+    width: 25%;
+    float: left;
+    padding: 5px;
+
+}
+.media img{
+    width: 100%;
+    border: transparent 1px;
+    border-radius: 50%;
+    background-color: #3c3c3c;
+}
